@@ -32,6 +32,18 @@ body {
   }
 }
 
-.header {
+.main-card {
+  height: calc(100vh - 96px);
+}
+
+.main-content {
+  height: calc(100% - 80px);
+}
+
+.radius-top {
   border-radius: 8px 8px 0 0;
+}
+
+.radius-bottom {
+  border-radius: 0 0 8px 8px;
 }
